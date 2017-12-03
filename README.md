@@ -20,11 +20,12 @@ gem install rails -v 5.1.2
 #Installing MySql if not installed
 brew install mysql #or download MySQL installer for windows
 
+#Updating bundler
+bundle update
+
 #Installing gems
 bundle install
 
-#Updating gems
-bundle update
 
 #Create database
 rails db:create
