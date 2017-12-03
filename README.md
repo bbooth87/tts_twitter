@@ -1,24 +1,34 @@
-# README
+## Getting Started
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Install [RVM](https://rvm.io/)
 
-Things you may want to cover:
+cd into the message_board directory and run the following commands
+```
+#Installing Ruby Version for progect
+rvm install "ruby-2.3.3"
 
-* Ruby version
+#Changing into Ruby Version
+rvm ruby-2.3.3
 
-* System dependencies
+#Installing Rails Version
+gem install rails -v 5.1.2
 
-* Configuration
+#Installing MySql if not installed
+brew install mysql #or download MySQL installer for windows
 
-* Database creation
+#Installing gems
+bundle install
 
-* Database initialization
+#Updating gems
+bundle update
 
-* How to run the test suite
+#Create database
+rails db:create
 
-* Services (job queues, cache servers, search engines, etc.)
+#Run migrations
+rails db:migrate
 
-* Deployment instructions
+#Run server
+rails s
+```
 
-* ...
