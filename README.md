@@ -1,8 +1,12 @@
+# TTS Twitter
+
+A Twitter recreation done in Tech Talent South
+
 ## Getting Started
 
 Install [RVM](https://rvm.io/)
 
-cd into the message_board directory and run the following commands
+cd into the tts_twitter directory and run the following commands
 ```
 #Installing Ruby Version for progect
 rvm install "ruby-2.3.3"
