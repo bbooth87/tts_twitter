@@ -4,6 +4,7 @@ A Twitter recreation done in Tech Talent South
 
 ## Getting Started
 
+### Please note I am having devise issues with this project.
 Install [RVM](https://rvm.io/)
 
 cd into the tts_twitter directory and run the following commands
